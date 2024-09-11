@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>Trang chủ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style2.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style3.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="home">
+    <header>
+        <div class="">
+            <div class="row no-gutters">
+                <div class="col-md-12 col-12">
+                    <div class="">
+                        <div class="top-header banner"><img class="img-fluid"
+                                src="https://cdn1131.cdn4s2.com/media/banner/banner%20top.png" alt="Banner top"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-2">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-12">
+                        <div class="">
+                            <div class="welcome-text">Chào mừng bạn đến với thế giới sách IELTS!</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-mid">
+            <div class="container">
+                <div class="row " style="align-items: center;">
+                    <div class="col-md-3 col-12">
+                        <div class="">
+                            <div class="logo-section"><a href="/"><img class="img-fluid"
+                                        src="https://cdn1131.cdn4s2.com/media/logo/logo%201.png"
+                                        alt="SÁCH IELTS GIÁ RẺ"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="box-search">
+                            <div class="position-relative">
+                                <div class="input-group"><input name="keyword" id="keyword11-id" placeholder="Từ khóa tìm kiếm"
+                                        type="text" class="form-control" value="">
+                                    <div class="input-group-append"><button onclick="searchItem()" class="btn btn-submit" type="submit"><i
+                                                class="fas fa-magnifying-glass"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class=""></div>
+                        <div class="" onclick="window.location.href = 'cart.html'">
+                            <div class="entire-action-header" style="cursor: pointer;"><a class="btn-mini-cart btn-action-header"
+                                    title="Giỏ hàng">
+                                    <div class="icon">
+                                        <img class="img-fluid" src="https://cdn1131.cdn4s2.com/media/icon/icon_cart.png"
+                                            alt="Giỏ hàng"><span class="items-number" id="item-cart-id"></span>
+                                    </div>Giỏ hàng
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12 col-12">
+                        <div class="position-relative">
+                            <div class="menu-container"
+                                style="background-image: url(https://cdn1131.cdn4s2.com/media/template/bg_header.png);">
+                                <a class="btn-menu-mobile"><i class="fas fa-bars"></i>Danh mục</a>
+                                <div class="back-drop"></div>
+                                <nav class="menu-section" menu-type="main">
+                                    <div class="menu-top"><span class="menu-header">Menu</span><a
+                                            class="close-sidebar effect-rotate icon-close"><i
+                                                class="fa-light fa-xmark"></i></a></div>
+                                    <ul>
+                                        <li class=""><a href="/"> Trang chủ<span
+                                                    class="fa-light fa-chevron-down"></span></a></li>
+                                        <li class=""><a href="/#">Giới thiệu<span
+                                                    class="fa-light fa-chevron-down"></span></a></li>
+                                        <li class="position-relative has-child "><a href="/filter.html">Danh Mục Sản
+                                                Phẩm </a><span class="grower"></span>
+                                            <ul class="entry-menu dropdown">
+                                                <li class=" "><a class="menu-link" href="/filter.html?category=0">Sách bán
+                                                        chạy</a></li>
+                                                <li class=" "><a class="menu-link" href="/filter.html?category=1">Các Combo</a></li>
+                                                <li class=" "><a class="menu-link" href="/filter.html?category=2">Sách IELTS</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class=""><a
+                                                href="https://www.facebook.com/sachieltssachngoaingu">Facebook<span
+                                                    class="fa-light fa-chevron-down"></span></a></li>
+                                        <li class=""><a
+                                                href="https://drive.google.com/drive/folders/1IEkyqpA8DI0YRjzU0ET1wJ1c_x15L-na"
+                                                target="_blank">Link nghe của Sách<span
+                                                    class="fa-light fa-chevron-down"></span></a></li>
+                                        <li class=""><a href="https://www.tiktok.com/@silesachielts92">Link Video sách
+                                                của shop<span class="fa-light fa-chevron-down"></span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="bg-light">
+        <div class="row no-gutters">
+            <div class="col-md-12 col-12">
+                <div class="">
+                    <div>
+                        <div class="p-3 bg-white mb-3">
+                            <div class="container">
+                                <nav class="breadcrumbs-section">
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="checkout-section mb-5">
+                                <form id="order-info">
+                                    <div class="row mx-n2">
+                                        <div id="order-info-left" class="col-lg-7 col-md-6 px-2">
+                                            <div class="bg-white p-4 mb-3">
+                                                <div class="h4 font-weight-bold mb-4">
+                                                    Thông tin đặt hàng
+                                                </div>
+
+                                                <div class="scrollbar" id="payment-list-id"
+                                                    style="max-height: 34rem;overflow-x: hidden;">
+                                                </div>
+
+                                            </div>
+                                            <div class="bg-white p-4 mb-3">
+                                                <div class="billing-details mt-4">
+                                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                                        <div class="h4 font-weight-bold mb-0">
+                                                            Địa chỉ nhận hàng
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="inner-col-1">
+                                                        <div class="form-billing">
+                                                            <div class="form-group validate-form">
+                                                                <input required class="form-control" name="full_name" value=""
+                                                                    type="text" placeholder="Họ và tên">
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-12">
+                                                                    <div class="form-group validate-form">
+                                                                        <input required class="form-control" name="email"
+                                                                            value="" type="email" placeholder="Email">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-4 col-12">
+                                                                    <div class="form-group validate-form">
+                                                                        <input required class="form-control" name="phone"
+                                                                            value="" type="text"
+                                                                            placeholder="Số điện thoại">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-group validate-form">
+                                                                <input class="form-control" required name="address" value=""
+                                                                    placeholder="Số nhà ngõ đường" type="text">
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-12">
+                                                                    <div class="form-group validate-form">
+                                                                        <select name="city_id" required id="city"
+                                                                            class="form-control selectpicker"
+                                                                            data-size="10" data-live-search="1">
+                                                                            <option value="">-- Tỉnh thành --</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-6 col-12">
+                                                                    <div class="form-group validate-form">
+                                                                        <select name="district_id" required id="district"
+                                                                            class="form-control selectpicker"
+                                                                            data-size="10" data-live-search="1">
+                                                                            <option value="">-- Quận huyện --</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-md-6 col-12">
+                                                                    <div class="form-group validate-form">
+                                                                        <select name="ward_id" required id="ward"
+                                                                            class="form-control selectpicker"
+                                                                            data-size="10" data-live-search="1">
+                                                                            <option value="">-- Phường xã --</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="inner-col-2 mb-5">
+                                                        <label>Ghi chú</label>
+                                                        <textarea class="form-control border-gray" name="note" rows="2"
+                                                            cols="5"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div id="order-info-right" class="col-lg-5 col-md-6 px-2">
+                                            <div class="order-review">
+                                                <div class="entry-order-review">
+                                                    <div class="card bg-white mb-3 py-3 px-4">
+                                                        <div class="card-header">
+                                                            <div
+                                                                class="d-flex justify-content-between align-items-center mb-3">
+                                                                <span class="d-flex align-items-center">
+                                                                    <i class="fa-solid fa-truck color-highlight"></i>
+                                                                    <div class="pl-2 mb-0 font-weight-bold">
+                                                                        Phương thức vận chuyển
+                                                                    </div>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="swich-change bg-white ">
+                                                            <label class="d-flex align-items-center border rounded p-3"
+                                                                for="shipping-method-1">
+                                                                <div>
+                                                                    Tự vận chuyển
+                                                                    <div class="font-weight-normal">
+                                                                        Phí vận chuyển:
+                                                                        25,000
+                                                                        <span class="currency-symbol fs-12">
+                                                                            đ
+                                                                        </span>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="ml-auto checked">
+                                                                    <i class="fa-solid fa-check fa-2x"></i>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="p-4 bg-white">
+                                                        <div class="d-flex justify-content-between mb-3">
+                                                            <span>
+                                                                Đơn giá
+                                                            </span>
+
+                                                            <span class="text-right">
+                                                                <strong>
+                                                                    <span class="price-amount" id="total-price-sum-id">
+                                                                        <!-- 28,000
+																		<span class="currency-symbol">
+																			đ
+																		</span> -->
+                                                                    </span>
+                                                                </strong>
+
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="d-flex justify-content-between mb-3">
+                                                            <span>
+                                                                Phí vận chuyển
+                                                            </span>
+                                                            <span class="color-hover text-right">
+                                                                <strong>
+                                                                    <span class="price-amount">
+                                                                        + 25,000
+                                                                        <span class="currency-symbol">
+                                                                            đ
+                                                                        </span>
+                                                                    </span>
+                                                                </strong>
+                                                            </span>
+                                                        </div>
+                                                        <div class="separation-dash mb-3"></div>
+
+                                                        <div class="d-flex justify-content-between mb-3">
+                                                            <span>
+                                                                Thành tiền
+                                                            </span>
+
+                                                            <span class="color-hover text-right">
+                                                                <strong>
+                                                                    <span class="price-amount" id="total-pr-id">
+                                                                    </span>
+                                                                </strong>
+
+                                                            </span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="checkout-payment bg-white p-4">
+                                                        <input type="button" onclick="paymentInvoice()" nh-btn-action="create-order"
+                                                            class="btn btn-submit w-100 mb-3" value="Thanh toán"/>
+                                                            <!-- Thanh toán
+                                                        </span> -->
+                                                        <a title="Quay lại giỏ hàng"
+                                                            class="order-back fs-14 d-flex align-items-center color-main mt-15"
+                                                            href="/cart.html">
+                                                            <i class="fa-solid fa-arrow-left mr-2"></i>
+                                                            Quay lại giỏ hàng
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer src="https://cdn1131.cdn4s2.com/media/template/bg_footer.png">
+        <div class="top-footer">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-12">
+                        <div class="">
+                            <div class="box-footer">
+                                <div class="logo"><a href="/"><img class="img-fluid"
+                                            src="https://cdn1131.cdn4s2.com/media/logo/logo%201.png"
+                                            alt="SÁCH IELTS GIÁ RẺ"></a></div>
+                                <ul class="contact">
+                                    <li><span class="d-block color-black mr-2">Liên hệ chúng tôi:</span></li>
+                                    <li><span class="color-black mr-2">0911383222:</span><span
+                                            class="color-black mr-2">Email:</span><span><a
+                                                href="mailto:silesachielts22@gmail.com">silesachielts22@gmail.com</a></span>
+                                    </li>
+                                    <li><span class="color-black mr-2">Web</span>sachieltsgiare.com:</li>
+                                    <li><span class="color-black">Theo dõi chúng tôi:</span></li>
+                                </ul>
+                                <div class="list-social">
+                                    <ul class="list-inline d-flex mb-0">
+                                        <li><a href="https://www.facebook.com/sachieltssachngoaingu" title="facebook"><i
+                                                    class="fa-brands fa-facebook"></i></a></li>
+                                        <li><a href="/" title="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="/" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li><a href="/" title="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="">
+                            <div class="menu-footer">
+                                <h4 class="title-footer">Về chúng tôi</h4>
+                                <ul>
+                                    <li class=""><a href="/">Trang chủ</a></li>
+                                    <li class=""><a href="/#">Giới thiệu</a></li>
+                                    <li class=""><a href="/">Sản phẩm</a></li>
+                                    <li class=""><a href="/">Tin tức</a></li>
+                                    <li class=""><a href="/">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="menu-footer">
+                                <h4 class="title-footer">Chính sách</h4>
+                                <ul>
+                                    <li class=""><a href="/">Chính sách đổi trả</a></li>
+                                    <li class=""><a href="/">Chính sách giao hàng</a></li>
+                                    <li class=""><a href="/">Chính sách thanh toán</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-5 col-12">
+                        <div class="">
+                            <div class="new-letter">
+                                <div class="header-form">
+                                    <h4>Sỉ Lẻ Sách IELTS</h4>
+                                    <p>Shop chuyển sách IELTS giá rẻ, bìa màu chống nước, nội dung in đen trắng full HD,
+                                        Miễn ship đơn từ 400k, đơn từ 200k tiền ship chỉ 15k</p>
+                                </div>
+                                <form>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i
+                                                    class="fas fa-envelope"></i></span></div><input name="email"
+                                            type="text" class="form-control required" placeholder="Nhập email của bạn">
+                                        <div class="input-group-append"><span class="input-group-text btn-submit">Đăng
+                                                ký</span></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-12">
+                        <div class="">
+                            <p class="copyright"> </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12 col-12">
+                        <div class="">
+                            <div class="fix-contact">
+                                <li><a href="https://zalo.me/g/kydtrd874"><img class="img-fluid" alt="zalo"
+                                            src="https://cdn1131.cdn4s2.com/media/logo/icon-4.png"></a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js"
+        type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.plugins.min.js"
+        type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+        type="text/javascript"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script>
+        var citis = document.getElementById("city");
+        var districts = document.getElementById("district");
+        var wards = document.getElementById("ward");
+        var Parameter = {
+            url: "https://raw.githubusercontent.com/kenzouno1/DiaGioiHanhChinhVN/master/data.json",
+            method: "GET",
+            responseType: "application/json",
+        };
+        var promise = axios(Parameter);
+        promise.then(function (result) {
+            renderCity(result.data);
+        });
+
+        function renderCity(data) {
+            for (const x of data) {
+                citis.options[citis.options.length] = new Option(x.Name, x.Id);
+            }
+            citis.onchange = function () {
+                district.length = 1;
+                ward.length = 1;
+                if (this.value != "") {
+                    const result = data.filter(n => n.Id === this.value);
+
+                    for (const k of result[0].Districts) {
+                        district.options[district.options.length] = new Option(k.Name, k.Id);
+                    }
+                }
+            };
+            district.onchange = function () {
+                ward.length = 1;
+                const dataCity = data.filter((n) => n.Id === citis.value);
+                if (this.value != "") {
+                    const dataWards = dataCity[0].Districts.filter(n => n.Id === this.value)[0].Wards;
+
+                    for (const w of dataWards) {
+                        wards.options[wards.options.length] = new Option(w.Name, w.Id);
+                    }
+                }
+            };
+        }
+    </script>
+    <script type="text/javascript" src="./js/payment.js"></script>
+
+
+</body>
+
+</html>
