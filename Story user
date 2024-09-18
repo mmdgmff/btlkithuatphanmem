@@ -1,0 +1,15 @@
+1. User Story cho Người dùng cuối (End-User Story)
+Mô tả tính năng hoặc chức năng mà người dùng cuối cùng (khách hàng, người dùng hệ thống) mong muốn.
+Mục tiêu: Đảm bảo sản phẩm cuối cùng phục vụ đúng nhu cầu của khách hàng và cải thiện trải nghiệm người dùng.
+2. User Story cho Quản trị viên (Admin User Story)
+Mô tả các yêu cầu dành cho quản trị viên hệ thống, người chịu trách nhiệm vận hành hoặc quản lý sản phẩm.
+Mục tiêu: Tăng cường khả năng quản lý và giám sát hệ thống.
+3. User Story về Bảo mật (Security User Story)
+Mô tả các yêu cầu về tính bảo mật, bảo vệ hệ thống và dữ liệu khỏi những mối đe dọa.
+Mục tiêu: Bảo vệ hệ thống và dữ liệu khỏi các mối nguy cơ về an ninh.
+4. User Story về Hiệu suất (Performance User Story)
+Mô tả các yêu cầu về tốc độ và hiệu suất của hệ thống để đáp ứng nhu cầu sử dụng của người dùng.
+Mục tiêu: Cải thiện hiệu suất hệ thống để đáp ứng khối lượng sử dụng lớn và nâng cao trải nghiệm người dùng.
+5. User Story về Tính tương thích (Compatibility User Story)
+Mô tả các yêu cầu về tính tương thích của sản phẩm trên nhiều nền tảng, thiết bị hoặc trình duyệt khác nhau.
+Mục tiêu: Đảm bảo sản phẩm hoạt động tốt trên nhiều môi trường khác nhau, mở rộng phạm vi sử dụng.
