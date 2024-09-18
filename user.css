@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+/* General Button Styles */
+button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Section 1: Product Page */
+.product-section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #e74c3c;
+}
+
+.quantity {
+    width: 50px;
+    padding: 5px;
+}
+
+.add-to-cart {
+    background-color: #3498db;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Section 2: Admin Panel */
+.admin-panel-section {
+    margin: 20px;
+}
+
+.admin-panel {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.admin-panel th, .admin-panel td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.edit-btn {
+    background-color: #3498db;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
